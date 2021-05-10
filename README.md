@@ -40,7 +40,7 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 
 ## Setup
 
-[![Watch the video](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.6/VideoPreview.png)](https://space.bilibili.com/698910893/channel/detail?cid=180284&ctype=0)
+[![Watch the videos](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.6/VideoPreview.png)](https://space.bilibili.com/698910893/channel/detail?cid=180284&ctype=0)
 
 ### openHAB installation
 
@@ -57,7 +57,11 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 2. Install Unity 2020 through the Installs Tab
 3. In the Projects Tab, select Add. Open the dowloaded project (either you cloned it or dowloaded as [zip archive](https://github.com/VRSimulator/NUIX-Studio-Client/archive/master.zip))
 4. Download [Environments](https://github.com/VRSimulator/NUIX-Studio-APP/releases/download/v0.6/Environments.unitypackage) package, select Import package - Custom package and then import it.
-5. Run the Scene from \Assets\NUIX-Studio-Client\openHABIntegration\Scenes
+5. Run a Scene from \Assets\NUIX-Studio-Client\openHABIntegration\Scenes
+
+### Oculus installation
+
+1. 
 
 ## Documentation
 
