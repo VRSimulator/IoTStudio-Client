@@ -56,8 +56,8 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 1. [Download Unity Hub](https://unity3d.com/get-unity/download)
 2. Install Unity 2020 through the Installs Tab
 3. In the Projects Tab, select Add. Open the dowloaded project (either you cloned it or dowloaded as [zip archive](https://github.com/VRSimulator/NUIX-Studio-Client/archive/master.zip))
-4. Download [3DLivingRoom](https://github.com/VRSimulator/NUIX-Studio-Client/releases/download/v0.6-alpha1/3DLivingRoom.unitypackage) package, select Import package - Custom package and then import it.
-5. . Run the Scene from \Assets\NUIX-Studio-Client\openHABIntegration\Scenes
+4. Download [Environments](https://github.com/VRSimulator/NUIX-Studio-APP/releases/download/v0.6/Environments.unitypackage) package, select Import package - Custom package and then import it.
+5. Run the Scene from \Assets\NUIX-Studio-Client\openHABIntegration\Scenes
 
 ## Documentation
 
