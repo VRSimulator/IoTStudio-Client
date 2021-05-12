@@ -70,3 +70,6 @@ crashlytics-build.properties
 # 3rdParty Assets
 /[Aa]ssets/NUIX-Studio/Environments/
 /[Aa]ssets/NUIX-Studio/Environments.meta
+
+# macOS files
+.DS_Store
