@@ -9,8 +9,22 @@ public class SightSensorWidget : SensorWidget
 {
     [SerializeField]
     [Tooltip("The tracked object")] Transform _target;
-    [SerializeField] [Tooltip("Should be either Character camera or any other camera in the scene")] Camera _camera;
+    [SerializeField] [Tooltip("Should be either Character camera or any other camera in the scene. Main camera by default.")] Camera _camera;
     [SerializeField] [Tooltip("Turn on/off the sensing")] bool _enableMotionSensor = false;
+
+    public override void Start()
+    {
+        base.Start();
+        InitWidget();
+    }
+
+    private void InitWidget()
+    {
+        if (_target == null) _target = gameObject.transform;
+        if (_camera == null) _camera = Camera.main;
+        SensorType = this.GetType().Name;
+        Debug.Log(SensorType + " initialized");
+    }
 
     void Update()
     {
@@ -41,6 +55,6 @@ public class SightSensorWidget : SensorWidget
 
     public override void OnUpdate()
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 }

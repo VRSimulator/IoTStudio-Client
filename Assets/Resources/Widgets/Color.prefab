@@ -19457,6 +19457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: None
+  StoreVirtualPosition: 0
+  itemTag: 
   colorMesh: {fileID: 2108953619217961267}
 --- !u!1 &4706803038641659292
 GameObject:
@@ -26762,7 +26764,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 0}
+  constraintsManager: {fileID: 8420407263551240955}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
