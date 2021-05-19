@@ -77,6 +77,7 @@ public class GestureThumbsUpRotatedForDimmerWidget : GestureWidget
 
     public void OnSetItem()
     {
+        if (isTrigger) GestureEventTrigger();
         if (TryGetNormalizedValue(out uint value))
         {
             itemController.SetItemStateAsDimmer((int)value);
