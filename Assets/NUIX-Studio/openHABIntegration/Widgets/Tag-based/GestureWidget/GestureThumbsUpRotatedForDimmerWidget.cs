@@ -11,8 +11,9 @@ public class GestureThumbsUpRotatedForDimmerWidget : GestureWidget
         base.Start();
     }
 
-    void Update()
+    public override void Update()
     {
+        base.Update();
         OnSetItem();
     }
 
@@ -21,24 +22,6 @@ public class GestureThumbsUpRotatedForDimmerWidget : GestureWidget
         return !HandPoseUtils.IsThumbGrabbing(_handedness) && HandPoseUtils.IsMiddleGrabbing(_handedness) && HandPoseUtils.IsIndexGrabbing(_handedness);
     }
 
-    public override void GestureEventTrigger()
-    {
-        if (TryGetGestureValue(out float value))
-        {
-            if (value > 40.0f)
-            {
-                _trigger.SensorTrigger();
-            }
-            else
-            {
-                _trigger.SensorUntrigger();
-            }
-        }
-        else
-        {
-            _trigger.SensorUntrigger();
-        }
-    }
 
     public bool TryGetNormalizedValue(out uint normalizedValue)
     {
@@ -70,14 +53,9 @@ public class GestureThumbsUpRotatedForDimmerWidget : GestureWidget
         return true;
     }
 
-    public override void OnUpdate()
-    {
-        //throw new System.NotImplementedException();
-    }
 
-    public void OnSetItem()
+    public override void OnSetItem()
     {
-        if (isTrigger) GestureEventTrigger();
         if (TryGetNormalizedValue(out uint value))
         {
             itemController.SetItemStateAsDimmer((int)value);

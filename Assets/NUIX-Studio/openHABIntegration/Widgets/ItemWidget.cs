@@ -49,6 +49,11 @@ public abstract class ItemWidget : MonoBehaviour
         }
     }
 
+    public virtual void Update()
+    {
+
+    }
+
     public void SetItemController(ItemController setItemComtroller)
     {
         itemController = setItemComtroller;
