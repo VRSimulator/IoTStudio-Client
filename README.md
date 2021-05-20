@@ -12,9 +12,6 @@
 
 ## General info
 
-<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_173803.jpg">
-<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_175023.jpg">
-
 By using NUIX-Studio App researchers can connect real and virtual IoT devices, test new IoT devices inside AIoT environments.
 
 |Car|Home|Classroom| 
@@ -103,3 +100,7 @@ Item Basic Widgets:
 
 ## Contributing to the platform
 请分享新想法, 谢谢！
+
+
+<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_173803.jpg">
+<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_175023.jpg">
