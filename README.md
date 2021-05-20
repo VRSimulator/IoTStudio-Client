@@ -65,7 +65,10 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 
 ### Oculus installation
 
-1. 
+1. Select Build Settings
+2. Set Platform to Android
+3. Select Add open Scenes, uncheck the unused scenes
+4. Connect Oculus to PC, press Build and Run
 
 ## Documentation
 
