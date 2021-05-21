@@ -39,9 +39,4 @@ public class GestureFistPlayPause : GestureWidget
         value = 0;
         return true;
     }
-
-    public override void GestureEventTrigger()
-    {
-       
-    }
 }
