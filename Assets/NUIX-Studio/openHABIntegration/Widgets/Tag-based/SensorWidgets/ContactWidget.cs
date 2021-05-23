@@ -31,8 +31,9 @@ public class ContactWidget : SensorWidget
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
+        base.Update();
         _transform.parent = _transform; // ???? maybe wrong
         CalculateDictanceToConnectedItem();
     }

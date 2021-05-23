@@ -19,9 +19,10 @@ public class WeightScalerWidget : SensorWidget
             _totalWeight = value;
         }
     }
-    
-    void Update()
+
+    public override void Update()
     {
+        base.Update();
         _totalWeight = 0f;
 
         // add up the weight of all objects

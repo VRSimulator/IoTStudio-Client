@@ -37,8 +37,9 @@ public class VirtualPositionWidget : ItemWidget
         if (sentValues.Count > 40) sentValues.Dequeue();
     }
 
-    public void Update()
+    public override void Update()
     {
+        base.Update();
         OnSetItem();
     }
 }

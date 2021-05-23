@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Attcach to a GameObject
+/// Used to control Audio Item on the server
+/// </summary>
 public class AudioWidget : ItemWidget
 {
 

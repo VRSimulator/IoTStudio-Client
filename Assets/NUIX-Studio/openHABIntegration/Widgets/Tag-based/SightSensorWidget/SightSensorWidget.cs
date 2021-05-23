@@ -26,8 +26,9 @@ public class SightSensorWidget : SensorWidget
         Debug.Log(SensorType + " initialized");
     }
 
-    void Update()
+    public override void Update()
     {
+        base.Update();
         if (_enableMotionSensor) CheckForTargetInCameraView();
     }
 

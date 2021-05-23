@@ -14,4 +14,9 @@ public class BasicSensorWidget : SensorWidget
     {
         base.Start();
     }
+
+    public override void Update()
+    {
+        base.Update();
+    }
 }
