@@ -2,6 +2,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
+
+/// <summary>
+/// Connect this class to a GameObject
+/// Keeps the pinchslider value same to a dimmer item
+/// </summary>
 public class DimmerWidget : ItemWidget
 {
     

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Microsoft.MixedReality.Toolkit.UI;
 
+
+/// <summary>
+/// Connect this class to a GameObject
+/// Keeps the color same to a Color item
+/// </summary>
 public class ColorWidget : ItemWidget
 {
     [Header("Widget Setup")]

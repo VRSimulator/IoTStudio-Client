@@ -11,8 +11,9 @@ public class GestureFistPlayPause : GestureWidget
         base.Start();
     }
 
-    void Update()
+    public override void Update()
     {
+        base.Update();
         OnSetItem();
     }
 
@@ -26,22 +27,11 @@ public class GestureFistPlayPause : GestureWidget
         //throw new System.NotImplementedException();
     }
 
-    public void OnSetItem()
+    public override void OnSetItem()
     {
         if (GestureCondition())
         {
             itemController.SetItemStateAsPlayerPlayPause(true);
         }
-    }
-
-    public override bool TryGetGestureValue(out float value)
-    {
-        value = 0;
-        return true;
-    }
-
-    public override void GestureEventTrigger()
-    {
-       
     }
 }

@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
+/// <summary>
+/// Connect this class to a GameObject
+/// Keeps the text value same to a string item
+/// </summary>
 public class StringWidget : ItemWidget
 {
     [Header("Widget Setup")]

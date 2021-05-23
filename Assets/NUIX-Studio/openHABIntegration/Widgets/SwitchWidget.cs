@@ -2,6 +2,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Connect this class to a GameObject
+/// Keeps the toggle state same to a switch item
+/// </summary>
 public class SwitchWidget : ItemWidget
 {
     [Header("Widget Setup")]

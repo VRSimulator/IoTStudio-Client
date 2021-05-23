@@ -5,6 +5,12 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
+/// <summary>
+/// Connect this class to a GameObject
+/// Keeps the image placed on a plane same to a image item
+/// Received the image byte data in openHAB format 
+/// and parses it for using in Unity
+/// </summary>
 public class ImageWidget : ItemWidget
 {
 
