@@ -12,18 +12,19 @@
 
 ## General info
 
-<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_173803.jpg">
-<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_175023.jpg">
+By using NUIX-Studio App researchers can connect real and virtual IoT devices, test new IoT devices inside AIoT environments.
 
-By using NUIX-Studio App researchers can connect real and virtual IoT devices, test new IoT devices inside VR environment (and don't even need to buy them!)
+|Car|Home|Classroom| 
+| --- | --- | --- |
+| ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.7/Car.gif)| ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.7/Home.gif) | ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.7/Class.gif) |
 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/v0.6/AppInstances.png)
 Currenly, the architecture can be represented by four layers:
 1. **IoT real world devices.**
-2. **openHAB server.** Provides:
+2. **openHAB server.**:
 	* Synchronization with IoT real world devices;
 	* Storage of IoT data.
-3. **NUIX-Studio Unity App** Provides API for interaction with virtual world.
+3. **NUIX-Studio Unity App Toolkit**: API for interaction with virtual world.
 
 ## Technologies
 NUIX-Studio uses the features of [Microsoft's Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity#feature-areas), such as hand tracking and interaction techniques. 
@@ -56,12 +57,15 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 1. [Download Unity Hub](https://unity3d.com/get-unity/download)
 2. Install Unity 2020 through the Installs Tab
 3. In the Projects Tab, select Add. Open the dowloaded project (either you cloned it or dowloaded as [zip archive](https://github.com/VRSimulator/NUIX-Studio-Client/archive/master.zip))
-4. Download [Environments](https://github.com/VRSimulator/NUIX-Studio-APP/releases/download/v0.6/Environments.unitypackage) package, select Import package - Custom package and then import it.
+4. Download [Environments](https://cloud.tsinghua.edu.cn/f/631be9dee51141d49e42/) package, select Import package - Custom package and then import it.
 5. Run a Scene from \Assets\NUIX-Studio-Client\openHABIntegration\Scenes
 
 ### Oculus installation
 
-1. 
+1. Select Build Settings
+2. Set Platform to Android
+3. Select Add open Scenes, uncheck the unused scenes
+4. Connect Oculus to PC, press Build and Run
 
 ## Documentation
 
@@ -96,3 +100,7 @@ Item Basic Widgets:
 
 ## Contributing to the platform
 请分享新想法, 谢谢！
+
+
+<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_173803.jpg">
+<img align="left" width="200" src="https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Readme/Files/20201030_175023.jpg">
