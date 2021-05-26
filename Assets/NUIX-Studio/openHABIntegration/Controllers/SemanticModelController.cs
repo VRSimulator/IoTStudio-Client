@@ -7,15 +7,8 @@ using UnityEngine.Rendering;
 
 class SemanticModelController : MonoBehaviour
 {
-    [Header("Client config")]
-    public bool InitOnStartup = false;
-
     private void Start()
     {
-        if (InitOnStartup)
-        {
-            StartSystem();
-        }
     }
     public void StartSystem()
     {
