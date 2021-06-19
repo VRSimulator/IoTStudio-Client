@@ -20,7 +20,7 @@ public abstract class SensorWidget : ItemWidget
 
     bool _isSensorTriggered = false;
 
-    protected string SensorType = "Basic Sensor";
+    protected string SensorType = "Sensor";
 
     // Start is called before the first frame update
     public override void Start()

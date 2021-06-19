@@ -6,7 +6,7 @@ public abstract class ItemWidget : MonoBehaviour
 {
     [Header("Item & Server Setup")]
     [Tooltip("Item name in openhab. ie. gf_Hallway_Light")]
-    public string item = "None";
+    public string item = "Set automatically";
     [Tooltip("If you wan't to subscribe to events on this item. What event. Usually StateChanged")]
     protected ItemController itemController;
 
@@ -14,7 +14,7 @@ public abstract class ItemWidget : MonoBehaviour
     [Tooltip("Store & synchronize virtual position with openHAB server")]
     public bool StoreVirtualPosition;
 
-    public string itemTag = "";
+    public string itemTag = "Set automatically";
 
     public abstract void OnUpdate();
 
