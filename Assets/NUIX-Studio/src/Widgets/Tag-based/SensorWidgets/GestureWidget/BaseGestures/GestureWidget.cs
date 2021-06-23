@@ -3,8 +3,6 @@ using Microsoft.MixedReality.Toolkit.Utilities;
 using System;
 using UnityEngine;
 
-#if OCULUSINTEGRATION_PRESENT
-#endif
 /// <summary>
 /// One hand gesture basic class
 /// </summary>
@@ -53,7 +51,7 @@ public abstract class GestureWidget : SensorWidget
                 gestureStartTime = DateTime.Now;
                 countDownStarted = true;
             }
-            if ((DateTime.Now.Subtract(gestureStartTime).TotalMilliseconds) > 500)
+            if ((DateTime.Now.Subtract(gestureStartTime).TotalMilliseconds) > 200)
             {
                 SensorTrigger();
             }
@@ -68,6 +66,7 @@ public abstract class GestureWidget : SensorWidget
     public override void Start()
     {
         base.Start();
+
     }
 
     /// <summary>
